@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header li {
+    list-style-type: none;
+}
+
+body {
+    width: 1024px;
+    height: 678px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    background-color: rgb(200, 196, 196);
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-right: 20px;
+}
+
+.logo_box {
+    width: 234px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 284px;
+    height: 19px;
+    color: white;
+}
+
+.green {
+    color: green;
+    font-size: 24px;
+}
+
+.white {
+    color: white;
+    font-size: 24px;
+}
+
+.red {
+    color: red;
+    font-size: 24px;
+}
+
+section {
+    width: 986px;
+    height: 350px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section img{
+    position: absolute;
+    border-radius: 5px;
+}
+
+section .ec2_box {
+    position: relative;
+    width: 360.64px;
+    height: 28px;
+    font-size: 23px;
+    top: 17px;
+    left: 23px;
+}
+
+.podium_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 491px;
+    height: 350px;
+}
+
+.podium_box .red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 171px;
+    height: 28px;
+}
+
+.top5_box_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 385px;
+    height: 250px;
+}
+
+#pt5_titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.li_pt5_titulo {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.podium_box ol {
+    width: 173px;
+    height: 178px;
+}
+
+.img_box_central {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 199px;
+    height: 250px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    width: 1024px;
+    height: 150px;
+    border: solid;
+}
+
+p {
+    font-family: "Roboto";
+}
+
+li {
+    font: "Roboto";
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    width: 78px;
+    height: 112px;
+}
