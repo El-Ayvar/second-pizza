@@ -22,6 +22,7 @@ body {
 header {
     width: 1024px;
     height: 100px;
+    padding-left: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +31,7 @@ header {
 }
 
 .logo_box {
-    width: 234px;
+    width: 254px;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -53,11 +54,20 @@ header ul {
 .white {
     color: white;
     font-size: 24px;
+    margin: -4px;
+}
+
+.white_ec {
+    color: white;
 }
 
 .red {
     color: red;
     font-size: 24px;
+}
+
+.red_ec {
+    color: red;
 }
 
 section {
@@ -142,6 +152,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
+    padding-right: 20px;
     width: 1024px;
     height: 150px;
     border: solid;
